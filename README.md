@@ -20,18 +20,12 @@ Installation:
 
 Usage:
 ```bash
-./metadata-extractor [OPTIONS] <MP3_FILE>...
-Options:
-
--a: Extract and save album art (PNG format)
--h: Display help message
--v: Verbose output (show extracted data for each field)
+./metadata-extractor  <MP3_FILE>...
 ```
 Example:
 ```bash
-./metadata-extractor -a song1.mp3 
+./metadata-extractor  song1.mp3 
 ```
-If the -a option is used, it will also extract and save the album art for each song.
 
 Output:
 
